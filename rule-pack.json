@@ -1,0 +1,10 @@
+{
+  "id": "wrangler-4.130.0-eight-rules",
+  "coverageDate": "2026-09-09",
+  "wranglerVersion": "4.130.0",
+  "workersSdkCommit": "570526276722ae57b250268a8af48fe0b1eaf774",
+  "schemaSha256": "29dedd886753ec4bbe174f589d0d6d80a68afe45f85e9303a8ecfe758be4b146",
+  "reference": "https://developers.cloudflare.com/workers/wrangler/configuration/",
+  "source": "https://github.com/cloudflare/workers-sdk/tree/570526276722ae57b250268a8af48fe0b1eaf774/packages/wrangler",
+  "scope": "Eight advisory checks; not full Wrangler validation. Routes and triggers inherit; bindings and vars do not."
+}

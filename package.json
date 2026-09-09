@@ -1,0 +1,32 @@
+{
+  "name": "@valen-systems/wrangler-config-doctor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "bin": {
+    "wrangler-config-doctor": "src/cli.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "build": "node scripts/build.mjs",
+    "lint": "eslint src test scripts",
+    "typecheck": "tsc --project jsconfig.json"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.0.0",
+    "jsonc-parser": "3.3.1",
+    "smol-toml": "1.8.0",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/client": "2.0.0",
+    "@types/node": "22.20.1",
+    "esbuild": "0.28.2",
+    "eslint": "10.10.0",
+    "typescript": "7.0.2"
+  }
+}
